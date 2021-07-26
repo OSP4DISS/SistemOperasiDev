@@ -21,9 +21,11 @@
 title: Operating Systems
 email: operatingsystems@vlsm.org
 description: >-
-  This site is used to collect information regarding Operating Systems
-  course (CSGE602055) in Fasilkom UI. Welcome and enjoy the knowledge
-  disseminated in this page.
+  This is the CSF-265 Operating System course site,
+  a GitHub Page, hosted at GitHub.com (thank you!).
+  It contains links to lecture materials, exam questions, and laboratory materials.
+  It is based on "Google Here, Google There, Try This, Try That, and then Ask Anybody (GHGTT4A2)".
+  This site is managed by VauLSMorg ([vlsm.org](http://vlsm.org/)) since 2018.
 
 # Build settings
 plugins:
@@ -34,7 +36,7 @@ layout: default
 # Author information
 author:
   name: "Operating Systems"
-  email: "operatingsystems@vlsm.org"
+  address: "Local Host"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -62,6 +64,14 @@ revision: V000--01-Jan-1970
 footer:
   copyright: © 2021
 
+disclaimer: >-
+  You are free to share, copy and redistribute the material of this site 
+  in any medium or format for any purpose, even commercially. 
+  Please give appropriate credit, provide a link to the page, 
+  and indicate if changes were made. You may do so in any reasonable manner. 
+  You should not apply legal terms or technological measures, 
+  that legally restrict others from doing anything that is permitted here.
+
 # Logo configuration (for navbar). Alt text will be used if failed
 logo: /favicon.ico
 alt_text: Mr. Yoda Yoda
@@ -81,20 +91,11 @@ internal_links:
     name: Listings
     url: "/000.html"
   -
-    name: Links
-    url: "/links/"
+    name: GitHubPages
+    url: "/GitHubPages/"
   -
-    name: Tips
-    url: "/tips/"
-  -
-    name: ZIP File
-    url: "/template.zip"
-  -
-    name: Tarball
-    url: "/template.tar.bz2"
-  - 
-    name: About
-    url: "/about/"
+    name: Report
+    url: "/REPORT/"
 
 # External links configuration (for navbar)
 # This is ONLY USED for links OUTSIDE the site or formed as absolute URLs
@@ -104,12 +105,26 @@ external_links:
   #   name: "Example External Links"
   #   url: "https://www.google.com"
   -
-    name: GitHub
-    url: "https://github.com/skycruiser8/TestOS/"
+    name: LOG CODES
+    url: "https://osp4diss.vlsm.org/ETC/logCodes.txt"
   - 
-    name: Web
-    url: "https://skycruiser8.github.io/TestOS/"
+    name: SCELE
+    url: "https://scele.cs.ui.ac.id/course/view.php?id=3134"
+  -
+    name: GitHub
+    url: "https://github.com/UI-FASILKOM-OS/SistemOperasi"
+  - 
+    name: OS.vlsm.org
+    url: "https://os.vlsm.org/"
   
+urlweb:           "https://os.vlsm.org/"
+urlscele:         "https://scele.cs.ui.ac.id/course/view.php?id=3134"
+urllogcode:       "https://osp4diss.vlsm.org/ETC/logCodes.txt"
+urlcontact:       "TBA"
+urlgithub:        "https://github.com/UI-FASILKOM-OS/SistemOperasi"
+urlghpage:        "https://os.vlsm.org/"
+keywords:         "jekyll, testing"
+github:           [metadata]
 
 
 # Google Analytics
