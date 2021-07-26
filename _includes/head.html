@@ -1,0 +1,39 @@
+<head>
+    <meta charset="utf-8">
+
+    {% if page.title %}
+        <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+        <title>{{ site.title }}</title>
+    {% endif %}
+
+    <meta name="description" content="{{ site.description }}">
+
+    {% if page.author.name %}
+        <meta name="author" content="{{ page.author.name }}">
+    {% else %}
+        <meta name="author" content="{{ site.author.name }}">
+    {% endif %}
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+    <script src="{{ '/assets/js/uikit.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/uikit-icons.js' | relative_url }}"></script>
+
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+
+    <!-- Google Analytics -->
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', '{{ site.google_analytics }}');
+        </script>
+    {% endif %}
+
+</head>

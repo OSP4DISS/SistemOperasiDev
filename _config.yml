@@ -1,0 +1,116 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Operating Systems
+email: operatingsystems@vlsm.org
+description: >-
+  This site is used to collect information regarding Operating Systems
+  course (CSGE602055) in Fasilkom UI. Welcome and enjoy the knowledge
+  disseminated in this page.
+
+# Build settings
+plugins:
+  - "jekyll-github-metadata"
+
+layout: default
+
+# Author information
+author:
+  name: "Operating Systems"
+  email: "operatingsystems@vlsm.org"
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Content configurations
+revision: V000--01-Jan-1970
+
+footer:
+  copyright: © 2021
+
+# Logo configuration (for navbar). Alt text will be used if failed
+logo: /favicon.ico
+alt_text: Mr. Yoda Yoda
+
+# Internal links configuration (for navbar)
+# This is ONLY USED for links inside the site since it will be plugged into site's URL
+# URL should be formed in /<directory> format (/ = project root directory)
+internal_links:
+  # Example format:
+  # - <newline>
+  #   name: "Example Internal Links"
+  #   url: "/Gemfile"
+  -
+    name: Home
+    url: "/"
+  - 
+    name: Listings
+    url: "/000.html"
+  -
+    name: Links
+    url: "/links/"
+  -
+    name: Tips
+    url: "/tips/"
+  -
+    name: ZIP File
+    url: "/template.zip"
+  -
+    name: Tarball
+    url: "/template.tar.bz2"
+  - 
+    name: About
+    url: "/about/"
+
+# External links configuration (for navbar)
+# This is ONLY USED for links OUTSIDE the site or formed as absolute URLs
+external_links:
+  # Example format:
+  # - <newline>
+  #   name: "Example External Links"
+  #   url: "https://www.google.com"
+  -
+    name: GitHub
+    url: "https://github.com/skycruiser8/TestOS/"
+  - 
+    name: Web
+    url: "https://skycruiser8.github.io/TestOS/"
+  
+
+
+# Google Analytics
+google_analytics: ""

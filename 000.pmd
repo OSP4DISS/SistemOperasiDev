@@ -1,0 +1,107 @@
+---
+title: GitHub Page Configuration Files
+---
+
+## _config.yml
+
+~~~
+(> _config.yml <)
+~~~
+
+## index.md
+
+~~~
+{% raw %}
+(> index.md <)
+{% endraw %}
+~~~
+
+## about.md
+
+~~~
+{% raw %}
+(> about.md <)
+{% endraw %}
+~~~
+
+## tips.md
+
+~~~
+{% raw %}
+(> tips.md <)
+{% endraw %}
+~~~
+
+## links.md
+
+~~~
+{% raw %}
+(> links.md <)
+{% endraw %}
+~~~
+
+## Gemfile
+
+~~~
+(> Gemfile <)
+~~~
+
+## _layouts/default.html
+
+~~~
+{% raw %}
+(> _layouts/default.html <)
+{% endraw %}
+~~~
+
+## Makefile
+
+~~~
+(> Makefile <)
+~~~
+
+## _includes/head.html
+
+~~~
+{% raw %}
+(> _includes/head.html <)
+{% endraw %}
+~~~
+
+## _includes/navbar.html
+
+~~~
+{% raw %}
+(> _includes/navbar.html <)
+{% endraw %}
+~~~
+
+## _includes/footer.html
+
+~~~
+{% raw %}
+(> _includes/footer.html <)
+{% endraw %}
+~~~
+
+## _includes/disclaimer.html
+
+~~~
+{% raw %}
+(> _includes/disclaimer.html <)
+{% endraw %}
+~~~
+
+## assets/main.scss
+
+~~~
+(> assets/main.scss <)
+~~~
+
+## assets/scripts/IncludeCode.py
+
+~~~
+{% raw %}
+(> assets/scripts/IncludeCode.py <)
+{% endraw %}
+~~~

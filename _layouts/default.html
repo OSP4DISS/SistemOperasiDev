@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html class="uk-background-secondary" lang="en">
+
+{% include head.html %}
+
+<body>
+    {% include navbar.html %}
+
+    <br>
+
+    <section class="uk-container uk-light">
+        {% if page.title %}
+            <h1>{{ page.title }}</h1>
+        {% else %}
+            <h1>{{ site.title }}</h1>
+        {% endif %}
+        
+        {% if page.author.name %}
+            by <strong>{{ page.author.name }}</strong> ({{ page.author.address }})
+        {% else %}
+            by <strong>{{ site.author.name }}</strong> ({{ site.author.address }})
+        {% endif %}
+        
+        {{ content }}
+    </section>
+
+    <section class="uk-container uk-light">
+        {% include footer.html %}
+    </section>
+    
+</body>
+
+</html>
