@@ -2,11 +2,41 @@
 ---
 
 @import "css/uikit.css";
-@import "css/uikit-rtl.css";
 
+/**
+To change font family, uncomment the font-family attribute below and enter your chosen font
+To change the general font color, modify the color attribute to your preferred color
+*/
+html, h1, h2, h3, h4, h5, h6, a, a:hover, a:focus {
+    // font-family:'Courier New', Courier, monospace;
+    color: hsl(0, 0, 80);
+}
 
+/**
+To override the font color only for headings, modify the color attribute below
+*/
+h1, h2, h3, h4, h5, h6, .uk-logo {
+    color: hsl(0, 0, 100);
+}
+
+/**
+Use this class to make an image round
+*/
 .image-rounded {
     border-radius: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/**
+To remove border from table, comment out / remove the border attribute below
+*/
+td {
+    padding: 0.5rem;
+    border: 1px solid hsl(0, 0, 100);
 }
 
 .nav-logo {
@@ -20,20 +50,11 @@ li > a:focus {
 }
 
 .highlight {
-    background-color: #333;
+    background-color: hsl(0, 0, 20);
 }
 
 code {
-    color: white;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-td {
-    border: 1px solid white;
+    color: hsl(0, 0, 100);
 }
 
 /**

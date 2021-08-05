@@ -1,10 +1,10 @@
 includeMarkdowns = 000.md
 
-templateFiles = _config.yml .gitignore 000.md 404.html about.md favicon.ico \
+templateFiles = _config.yml .gitignore 000.md 000.pmd 404.html about.md favicon.ico \
 				Gemfile index.md links.md Makefile tips.md \
 				_includes/disclaimer.html _includes/footer.html _includes/head.html \
 				_includes/navbar.html _layouts/default.html assets/main.scss \
-				assets/css/uikit-rtl.css assets/css/uikit.css assets/js/uikit-icons.js \
+				assets/css/uikit.css assets/js/uikit-icons.js \
 				assets/js/uikit.js assets/scripts/IncludeCode.py
 
 all: $(includeMarkdowns) template.tar.bz2 template.zip
