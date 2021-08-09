@@ -13,6 +13,14 @@ html, h1, h2, h3, h4, h5, h6, a, a:hover, a:focus {
 }
 
 /**
+To change the BASE font size (for paragraph <p> elements), modify the following font-size attribute
+Other elements will be scaled accordingly to preserve responsiveness
+*/
+html {
+    font-size: 16px;
+}
+
+/**
 To override the font color only for headings, modify the color attribute below
 */
 h1, h2, h3, h4, h5, h6, .uk-logo {
