@@ -3,6 +3,9 @@
 > Using Template Project, Copying Over Existing Project
 
 1. Extract template from tarball/ZIP.
+~~~shell
+tar xjf template.tar.bz2
+~~~
 ![Extract](1.png)
 2. Copy over all files **not related to Jekyll and GitHub Pages** (Markdowns, Jekyll configurations, HTML, CSS, and similar files will be copied later).
 ![Copy](2.png)
