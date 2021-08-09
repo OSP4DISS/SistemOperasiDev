@@ -48,7 +48,7 @@ title:  "Operating Systems - Sistem Operasi"
 <br>
 <h3>DISCLAIMER</h3>
 
-{{ site.disc }}
+{{ site.disclaimer }}
 
 <br>
 Laman ini berisi tautan-tautan seputar mata kuliah Sistem Operasi seperti bahan kuliah, 
