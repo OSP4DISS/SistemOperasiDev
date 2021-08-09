@@ -1,69 +1,14 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Operating Systems
-email: operatingsystems@vlsm.org
+revision: DEMO 001 09-Aug-2021
+footer:
+  copyright: © 2021
+
 description: >-
   This is the CSF-265 Operating System course site,
   a GitHub Page, hosted at GitHub.com (thank you!).
   It contains links to lecture materials, exam questions, and laboratory materials.
   It is based on "Google Here, Google There, Try This, Try That, and then Ask Anybody (GHGTT4A2)".
   This site is managed by VauLSMorg ([vlsm.org](http://vlsm.org/)) since 2018.
-
-# Build settings
-plugins:
-  - "jekyll-github-metadata"
-
-layout: default
-
-# Author information
-author:
-  name: "Operating Systems"
-  address: "Local Host"
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Content configurations
-revision: V000--01-Jan-1970
-
-footer:
-  copyright: © 2021
-
 disclaimer: >-
   You are free to share, copy and redistribute the material of this site 
   in any medium or format for any purpose, even commercially. 
@@ -71,6 +16,25 @@ disclaimer: >-
   and indicate if changes were made. You may do so in any reasonable manner. 
   You should not apply legal terms or technological measures, 
   that legally restrict others from doing anything that is permitted here.
+
+# Author information
+author:
+  name: "Operating Systems"
+  address: "Local Host"
+
+# Google Analytics
+google_analytics: ""
+
+# Build settings
+plugins:
+  - "jekyll-github-metadata"
+
+urlweb:           "https://os.vlsm.org/"
+urlscele:         "https://scele.cs.ui.ac.id/course/view.php?id=3134"
+urllogcode:       "https://osp4diss.vlsm.org/ETC/logCodes.txt"
+urlcontact:       "TBA"
+urlgithub:        "https://github.com/UI-FASILKOM-OS/SistemOperasi"
+urlghpage:        "https://os.vlsm.org/"
 
 # Logo configuration (for navbar). Alt text will be used if failed
 logo: /favicon.ico
@@ -112,20 +76,12 @@ external_links:
     url: "https://scele.cs.ui.ac.id/course/view.php?id=3134"
   -
     name: GitHub
-    url: "https://github.com/UI-FASILKOM-OS/SistemOperasi"
+    url: "https://github.com/OSP4DISS/SistemOperasiDev/"
   - 
     name: OS.vlsm.org
-    url: "https://os.vlsm.org/"
-  
-urlweb:           "https://os.vlsm.org/"
-urlscele:         "https://scele.cs.ui.ac.id/course/view.php?id=3134"
-urllogcode:       "https://osp4diss.vlsm.org/ETC/logCodes.txt"
-urlcontact:       "TBA"
-urlgithub:        "https://github.com/UI-FASILKOM-OS/SistemOperasi"
-urlghpage:        "https://os.vlsm.org/"
+    url: "https://osp4diss.github.io/SistemOperasiDev/"
+
 keywords:         "jekyll, testing"
 github:           [metadata]
 
-
-# Google Analytics
-google_analytics: ""
+layout: default
