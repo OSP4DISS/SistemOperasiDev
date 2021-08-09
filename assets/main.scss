@@ -49,12 +49,9 @@ li > a:focus {
     text-decoration: underline;
 }
 
-.highlight {
-    background-color: hsl(0, 0, 20);
-}
-
-code {
-    color: hsl(0, 0, 100);
+.highlight, code {
+    color: hsl(0, 0, 100) !important;
+    background-color: hsl(0, 0, 20) !important;
 }
 
 /**
